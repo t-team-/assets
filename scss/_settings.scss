@@ -68,7 +68,8 @@
 // $info-color: #a0d3e8;
 
 // We use these to make sure border radius matches unless we want it different.
-// $global-radius: 3px;
+$global-radius: $unit*3;
+
 // $global-rounded: 1000px;
 
 // We use these to control inset shadow shiny edges and depressions.
