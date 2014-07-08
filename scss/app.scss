@@ -1,8 +1,13 @@
-
+// Import global constants
 @import "constants";
+// Import Foundation settings
 @import "settings";
+// Import custom settings
 @import "settings.custom";
+// Import Foundation
 @import "foundation";
+// Import FontAwesome
+@import "../../bower_components/components-font-awesome/scss/font-awesome.scss";
 
 // Or selectively include components
 // @import
