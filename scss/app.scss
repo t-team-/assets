@@ -1,13 +1,22 @@
 // Import global constants
 @import "constants";
-// Import Foundation settings
-@import "settings";
+// Import FontAwesome
+@import "../../bower_components/normalize-css/normalize.css";
+// Import Compass
+@import "compass";
 // Import custom settings
 @import "settings.custom";
+// Import Foundation settings
+@import "settings";
 // Import Foundation
 @import "foundation";
 // Import FontAwesome
-@import "../../bower_components/components-font-awesome/scss/font-awesome.scss";
+@import "../../bower_components/components-font-awesome/scss/font-awesome";
+// Import custom reset
+@import "reset";
+// Import template
+@import "template";
+
 
 // Or selectively include components
 // @import

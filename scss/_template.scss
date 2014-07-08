@@ -1,0 +1,4 @@
+button.test{
+    @include button($radius:true); 
+    @include text-shadow(0, -$unit, $unit, 0, '#000');
+}
